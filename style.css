@@ -1,0 +1,23 @@
+.cards {
+    height: 300px;
+    width: 200px;
+    background-color: rgb(80, 80, 246);
+    color: aliceblue;
+    border-radius: 5px;
+    transition: width 2s, height 2s;
+  
+}
+.card-conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    padding: 120px;
+} 
+  
+.cards:hover {
+    width: 220px;
+    height: 400px;
+
+}
